@@ -1,0 +1,34 @@
+{
+  "name": "intresting",
+  "version": "0.0.1",
+  "description": "a server for app",
+  "engines": {
+    "node": "7.0.0",
+    "npm": "3.10.8"
+  },
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha",
+    "heroku-prebuild": "echo This runs before Heroku installs your dependencies.",
+    "heroku-postbuild": "echo This runs afterwards."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mobilesite/intresting.git"
+  },
+  "keywords": [
+    "nodejs",
+    "server"
+  ],
+  "author": "dennis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mobilesite/intresting/issues"
+  },
+  "homepage": "https://github.com/mobilesite/intresting#readme",
+  "dependencies": {
+    "koa": "^2.2.0",
+    "mongoose": "^4.9.3"
+  }
+}
