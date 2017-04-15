@@ -12,4 +12,4 @@ app.use(ctx => {
 
 app.listen(process.env.PORT || 5000);
 
-console.log('server started. you can visit it at http://localhost')
+console.log('server started. you can visit it at http://localhost');
